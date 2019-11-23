@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def get_json_from_csv():
     json_response = []
-    fieldNames = ["fname","lname","age","state","email"] 
+    fieldNames = ["fname","lname","age","state","email", "handler"] 
     with open('dataset.csv') as csvFile: 
         reader = csv.DictReader(csvFile, fieldNames) 
         for row in reader:
