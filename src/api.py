@@ -16,7 +16,7 @@ def get_json_from_csv():
             json_response.append(row)
     return json_response
 
-@app.route("/product", methods=['get'])
+@app.route("/people", methods=['get'])
 def get_product():
 
 	return json.dumps(get_json_from_csv())
