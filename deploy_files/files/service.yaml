@@ -11,4 +11,4 @@ spec:
   type: NodePort
   externalTrafficPolicy: Local
   selector:
-    module: example
+    module: techmang3-api

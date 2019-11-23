@@ -25,7 +25,7 @@ spec:
             memory: "300Mi"
             cpu: "200m"
         imagePullPolicy: Always
-        name: container-example
+        name: container-api
         ports:
         - name: p-api
           containerPort: 8989
