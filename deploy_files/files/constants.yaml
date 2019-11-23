@@ -1,0 +1,9 @@
+production:
+  techmang3-api: &techmang3-api
+    image: amithapa/techmang3-api
+    node_port: 31000
+
+staging:
+  techmang3-api:
+    <<: *techmang3-api
+    node_port: 32000
